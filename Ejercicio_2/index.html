@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a HTML</title>
+    <link rel="icon" href="img/HTML-5-Badge-Logo.png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+    <!--Encabezado principal -->
+    <h1>Introducción a HTML</h1>
+    
+    <!--Subencabezado -->
+    <h2>¿Qué es HTML?</h2>
+    
+    <!--Pararfo -->
+    <p><abbr title="Lengua de Hipertexto">HTML</abbr> es el lenguaje estándar para crear páginas web. HTML describe la estructura de una página web usando una serie de elementos.</p>
+    
+    <!--Encabezado menor -->
+    <h3>Elementos básicos de HTML</h3>
+    <p>Un documento HTML típico incluye varias etiquetas que definen el contenido y la estructura de la página.</p>
+    
+    <!--Lista de elementos -->
+    <p><strong>Algunos de los elementos más comunes en HTML son:</strong></p>
+    <p><b>&lt;h1&gt; a &lt;h6&gt;</b> - Encabezados, donde <i>&lt;h1&gt;</i> es el más importante y <i>&lt;h6&gt;</i> el menos importante.</p>
+    <p><b>&lt;p&gt;</b> - Define un párrafo.</p>
+    <p><b>&lt;a&gt;</b> - Define un enlace.</p>
+    <p><b>&lt;img&gt;</b> - Inserta una imagen.</p>
+    <p>En la siguiente imagen podemos ver las partes de una pagina web</p>
+
+    <img src="img/partes de u8na pagina.png" alt="Partes de una pagina web" usemap="#workmap" class="imagenMapeada" width="25%" height="60%">
+    <map name="workmap">
+        <area shape="rect" coords="17%,10%,270%,70%" alt="Head" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head#attr-profile">
+        <area shape="rect" coords="17%,68%,270%,259%" alt="Body" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body">
+        <area shape="rect" coords="17%,258%,270%,308%" alt="Footer" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer">
+    </map>
+    <hr>
+
+    <!--457,95,28,18--17%,10%,270%,70%-->
+    <!--28,50,459,345--17%,68%,270%,259%-->
+    <!--28,100,458,521--17%,258%,270%,308%-->
+
+    <h1>Tabla de Etiquetas HTML Comunes</h1>
+
+    <center>
+
+        <table border="1" width="50%" height="60%">
+            <thead>
+                <tr>
+                    <th class="etiqueta">Etiqueta</th>
+                    <th class="descripcion">Descripción</th>
+                    <th class="ejemplo">Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="alto">
+                    <td>&lt;h1&gt; a &lt;h6&gt;</td>
+                    <td>Define los encabezados de nivel 1 a 6, siendo &lt;h1&gt; el más importante.</td>
+                    <td>&lt;h1&gt;Título Principal&lt;/h1&gt;</td>
+                </tr>
+                <tr class="alto">
+                    <td>&lt;p&gt;</td>
+                    <td>Define un párrafo de texto.</td>
+                    <td>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</td>
+                </tr>
+                <tr class="alto">
+                    <td>&lt;a&gt;</td>
+                    <td>Crea un enlace a otra página o recurso.</td>
+                    <td>&lt;a href="https://example.com"&gt;Visitar Ejemplo&lt;/a&gt;</td>
+                </tr>
+                <tr class="alto">
+                    <td>&lt;img&gt;</td>
+                    <td>Inserta una imagen en la página.</td>
+                    <td>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</td>
+                </tr>
+                <tr class="alto">
+                    <td>&lt;ul&gt; &lt;ol&gt; &lt;li&gt;</td>
+                    <td>Define listas desordenadas (&lt;ul&gt;) y ordenadas (&lt;ol&gt;) con elementos de lista (&lt;li&gt;).</td>
+                    <td>
+                        &lt;ul&gt;<br>
+                        &nbsp;&nbsp;&lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                        &nbsp;&nbsp;&lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                        &lt;/ul&gt;
+                    </td>
+                </tr>
+            </tbody>
+        </table></center>
+
+        <h1>Lista de Estilos de Bordes</h1>
+
+    <div class="tablaa">
+    <div class="EstiloTabla1">
+        <ul>
+            <li>Borde punteado (dotted):<table class="dotted-border" border="1" cellpadding="10"><tr><td>    </td></tr></table></li>
+        </ul>
+    </div>
+
+    <div class="EstiloTabla1">
+        <ul>
+            <li>Borde discontinuo (dashed):<table class="dashed-border" border="1" cellpadding="10"><tr><td>    </td></tr></table></li>
+        </ul>
+    </div>
+
+    <div class="EstiloTabla1">
+    <ul>
+            <li>Borde sólido (solid):<table class="solid-border" border="1" cellpadding="10"><tr><td>    </td></tr></table></li>
+        </ul>
+    </div>
+
+    <div class="EstiloTabla1">
+        <ul>
+            <li>Borde doble (double):<table class="double-border" border="1" cellpadding="10"><tr><td>    </td></tr></table></li>
+        </ul>
+    </div>
+
+    <div class="EstiloTabla1">
+        <ul>
+            <li>Borde oculto (hidden):<table class="hidden-border" border="1" cellpadding="10"><tr><td>    </td></tr></table></li>
+        </ul>
+    </div>
+    </div>
+    <hr>
+
+    <!--Subencabezado -->
+    <h3>Enlaces en HTML</h3>
+    <p>Los enlaces se crean utilizando la etiqueta <b>&lt;a&gt;</b>, que significa "anchor" (ancla en inglés). A continuación, un ejemplo:</p>
+    <p>Visita la página de <a href="https://www.w3schools.com/html/" target="_blank">w3schools</a> sobre HTML para más información.</p>
+
+    <!--Imagen -->
+    <h3>Imágenes en HTML</h3>
+    <p>Las imágenes se insertan en una página web usando la etiqueta <b>&lt;img&gt;</b>. A continuación, un ejemplo:</p>
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgvIpcXlwcO6omkp6q55vS8N3FWg0I_DiGBg&s">
+        <img src="img/GetImage.png" width="12%" height="12%" alt="Ejemplo de una imagen en HTML">
+    </a>
+    <br>
+    <hr>
+
+    <br>
+    <P>Este es un ejemplo de una pagina web con las cosas basicas de HTML</P>
+    <iframe src="../Ejercicio_1/index.html" title="Iframe Example" class="iframee" height="300%"></iframe>
+    <br>
+    <button onclick="document.location='../Ejercicio_1/index.html'">HTML Actividad 1</button>
+
+    <hr>
+
+    <!--Texto pre-formateado -->
+    <h3>Código HTML Preformateado</h3>
+    
+    <p>El código puede mostrarse utilizando la etiqueta <b>&lt;pre&gt;</b>:</p>
+    <pre>
+    <div class="code">
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Mi primera página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;¡Hola Mundo!&lt;/h1&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+    </div>
+    </pre>
+    <p><i>HTML</i> es fácil de aprender y fundamental para el desarrollo web y la programación aunque este sea un lenguaje de etiquetas o de hipertexto.</p>
+    
+
+</body>
+</html>

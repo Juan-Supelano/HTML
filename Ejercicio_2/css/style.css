@@ -1,0 +1,121 @@
+body{
+    background: #90a5d6;
+    background: -webkit-linear-gradient(to right, #97a9d4, #314670);
+    background: linear-gradient(to right, #7690ce, #9fb4df);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+th{
+    background-color: #6f9bf5;
+}
+
+.tablaa {
+    display: flex;
+}
+
+.tablaa > div {
+    width:33%;
+}
+
+.iframee {
+    height:100%;
+    width:40%;
+    border:none;
+}
+
+.imagenMapeada {
+    max-width:38%;
+    height:auto;
+}
+
+/*.EstiloTabla1{
+    width:100%;
+    overflow:auto;
+  }
+
+.EstiloTabla1 div {
+    width:33%;
+    float:left;
+}*/
+
+.code{
+    background-color:black;
+    color:rgb(95, 241, 36);
+    padding:1px; 
+    width: 400px; 
+    height: 150px;
+    /*margin:left;*/
+}
+
+tr:nth-child(even) {
+    background-color: #a2c2f1;
+}
+
+/*th {
+    text-align: left;
+}*/
+
+.etiqueta{
+    width:17%;
+}
+
+.alto{
+    height:30px;
+}
+
+/*.forma_tablas {
+    display: inline-block;
+    margin: 10px;
+}*/
+
+.dotted-border {
+    border: 2px dotted black;
+}
+
+.dashed-border {
+    border: 2px dashed black;
+}
+
+.solid-border {
+    border: 2px solid black;
+}
+
+.double-border {
+    border: 4px double black;
+}
+
+.hidden-border {
+    border: 2px hidden black;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
